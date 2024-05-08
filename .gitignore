@@ -26,7 +26,7 @@ compilerconfig.json
 *.log
 
 # Ignore all files in the wwwroot folder
-wwwroot/*
+/**/wwwroot/*
 
 # Files not recognized by source control e.g. PDFs
-*.pdf
+docs/*.pdf
