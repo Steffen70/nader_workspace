@@ -29,7 +29,6 @@ namespace FirstRazorApp.Controllers
 
             var greeter = $"Hello World and {name}";
 
-
             // Ok() returns JSON
             return Ok(greeter);
         }
