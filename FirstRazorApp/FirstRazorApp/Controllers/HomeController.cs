@@ -25,12 +25,14 @@ namespace FirstRazorApp.Controllers
 
         public ActionResult<string> Test(string name)
         {
-            // Get data from database
+            //// Get data from database
 
-            var greeter = $"Hello World and {name}";
+            //var greeter = $"Hello World and {name}";
 
-            // Ok() returns JSON
-            return Ok(greeter);
+            //// Ok() returns JSON
+            //return Ok(greeter);
+
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
